@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="dental clinic" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+    />
+    <title>Dental Clinic</title>
+  </head>
+  <body>
+    <!-- Start Settings Box -->
+    <div class="setting-box">
+      <div class="set-box"><i class="fa fa-gear"></i></div>
+      <div class="setting-container">
+        <div class="option-box">
+          <h4>colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#ff5722"></li>
+            <li data-color="#3f51b5"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#2196f3"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <div class="random-bg">
+            <h4>background option</h4>
+            <div class="btns">
+              <span class="yes active" data-bg="yes">yes</span>
+              <span class="no" data-bg="no">no</span>
+            </div>
+          </div>
+        </div>
+        <div class="option-box">
+          <div class="bullets">
+            <h4>Show Bullets</h4>
+            <div class="btns">
+              <span class="yes active" data-display="block">Show</span>
+              <span class="no" data-display="none">Hide</span>
+            </div>
+          </div>
+        </div>
+        <button class="reset-options">reset options</button>
+      </div>
+    </div>
+    <!-- End Settings Box -->
+    <!-- Start Navigation Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".services">
+        <div class="tooltip">Our Services</div>
+      </div>
+      <div class="bullet" data-section=".our-team">
+        <div class="tooltip">Our Team</div>
+      </div>
+      <div class="bullet" data-section=".honour">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".department">
+        <div class="tooltip">Department</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+      <div class="bullet" data-section=".contact-us">
+        <div class="tooltip">Contact Us</div>
+      </div>
+    </div>
+    <!-- End Navigation Bullets -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <i class="fa-solid fa-tooth fa-3x"></i>
+          </div>
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a class="active" href="#" data-section=".landing-page">home</a>
+              </li>
+              <li><a href="#" data-section=".about-us">About Us</a></li>
+              <li><a href="#" data-section=".services">Services</a></li>
+              <li><a href="#" data-section=".our-team">Team</a></li>
+              <li><a href="#" data-section=".honour">Timeline</a></li>
+              <li><a href="#" data-section=".department">Departments</a></li>
+              <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+              <li><a href="#" data-section=".contact-us">Contact Us</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="intro-text">
+        <h1>welcome to<span>Dental Clinic</span> we are happy to serve you.</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
+          reiciendis commodi labore sequi, necessitatibus quo assumenda pariatur
+          aliquam dolorum corporis atque voluptatibus fuga facilis quia dolores.
+        </p>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start About Us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>specialist dental clinic</h2>
+          <p>
+            <span>Vestibulum </span>condimentum, risus sedones honcus rutrum,
+            salah lacus mollis zurna, nec finibusmi velit advertisis. Proin
+            vitae odin quis magna aliquet laciniae. Etiam auctor, nisi vel.
+            Pellentesque ultrices nisl quam iaculis, nec pulvinar augue.
+          </p>
+          <p>
+            We firmly believe that <span>humility</span> is an essential
+            characteristic as we seek to improve every day. Everything that we
+            achieve is the result of sacrifice and hard work, and humility
+            enables us to avoid becoming complacence. Ut enim ad minim , quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse.
+          </p>
+        </div>
+        <div class="img-holder">
+          <img src="imgs/about-us.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Our Trophies -->
+    <div class="services">
+      <div class="container">
+        <h2>our services</h2>
+        <div class="service-box">
+          <div class="service-name">teeth wightining</div>
+          <div class="service-prog">
+            <span data-width="90%">98</span>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-name">Missing Teeth</div>
+          <div class="service-prog">
+            <span data-width="75%">66</span>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-name">Examination</div>
+          <div class="service-prog">
+            <span data-width="60%">54</span>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-name">Cos.Dentistry</div>
+          <div class="service-prog">
+            <span data-width="55%">38</span>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-name">Teeth Pain</div>
+          <div class="service-prog">
+            <span data-width="45%">17</span>
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="service-name">surgery</div>
+          <div class="service-prog">
+            <span data-width="25%">15</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Trophies -->
+    <!-- Start Our Team -->
+    <div class="container">
+      <div class="our-team">
+        <h2>our team</h2>
+        <div class="img-box">
+          <img src="imgs/team01.jpg" alt="Luka Tony" />
+          <img src="imgs/team02.jpg" alt="Antoine Jose" />
+          <img src="imgs/team03.jpg" alt="Vinicius Paixao" />
+          <img src="imgs/team04.jpg" alt="Daniel Ramos" />
+          <img src="imgs/team05.jpg" alt="Emry Gonzalez" />
+          <img src="imgs/team06.jpg" alt="Federico Santiago" />
+          <img src="imgs/team07.jpg" alt="Rodrygo Alvarez" />
+          <img src="imgs/team08.jpeg" alt="Marc Willemsen" />
+          <img src="imgs/team09.jpeg" alt="Joseph Michel" />
+          <img src="imgs/team10.jpg" alt="Fernández Iglesias" />
+        </div>
+      </div>
+    </div>
+    <!-- End Our Team -->
+    <!-- Start Honour Section -->
+    <div class="honour">
+      <div class="container" id="timeline">
+        <div class="box">
+          <div class="title">Clinic</div>
+          <div class="left">
+            <div class="content">
+              <h4>Toothcare</h4>
+              <p><span>OPENING</span> 9AM</p>
+              <p><span>Doctors</span> 10</p>
+              <p><span>DIMENSIONS</span> 105 x 68 m</p>
+              <p>
+                <span>ADDRESS</span> Avda. de Concha Espina 1,28036; Madrid -
+                España
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h4>Values</h4>
+              <p>
+                The legacy of the greatest Toothcare of all time is based on
+                values that, over time, have shaped an organisation that is the
+                leader on the field and in social, solidarity and financial
+                terms.
+              </p>
+              <p>
+                We show 100% commitment to all of our on-field objectives by
+                adopting a team-based philosophy. All of those of us who are
+                part of Toothcare, both employees and fans, work together with a
+                focus on. It’s an organisational philosophy through which we
+                commit to achieving our objectives with camaraderie, generosity,
+                togetherness and the empathy to achieve a common goal.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="title">Best</div>
+          <div class="left">
+            <div class="content">
+              <h4>Qualitfied Doctors</h4>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Antoine Jose</span
+                >
+                1911-1928
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Vinicius Paixao</span
+                >
+                1982-1995
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Daniel Ramos</span
+                >1989-2003
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Joseph Michel</span
+                >
+                1999-2000
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Fernández Iglesias</span
+                >2006-2022
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Marc Willemsen</span
+                >2009-2018
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="title">Prizes</div>
+          <div class="left">
+            <div class="content">
+              <h4>Prizes In Dentistry</h4>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Marc Willemsen</span
+                >
+                5
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Fernández Iglesias</span
+                >
+                6
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Daniel Ramos</span
+                >
+                3
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Joseph Michel</span
+                >7
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Fernández Gonzalez</span
+                >
+                9
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Luka Tony</span
+                >2
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Vinicius Paixao</span
+                >1
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="title">Services</div>
+          <div class="right">
+            <div class="content">
+              <h4>Best Services</h4>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Teeth wightining</span
+                >
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Lab Test</span
+                >
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Primary Care</span
+                >
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px">
+                  Heart Rate</span
+                >
+              </p>
+              <p>
+                <span style="display: inline-block; margin-right: 5px"
+                  >Emergency Care</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Honour Section -->
+    <!-- Start Deparment Section -->
+    <div class="department">
+      <h2>Clinic Department</h2>
+      <div class="container">
+        <div class="box">
+          <img src="imgs/dep01.jpg" alt="" />
+          <h4>Neurological Deparments</h4>
+          <p>PRIMARY CARE</p>
+        </div>
+        <div class="box">
+          <img src="imgs/dep02.jpg" alt="" />
+          <h4>Surgical Deparments</h4>
+          <p>SYMPTOM CHECK</p>
+        </div>
+        <div class="box">
+          <img src="imgs/dep03.jpg" alt="" />
+          <h4>Dental Deparments</h4>
+          <p>TEETH WIGHTINIG</p>
+        </div>
+        <div class="box">
+          <img src="imgs/dep04.jpg" alt="" />
+          <h4>Ophthalmology Deparments</h4>
+          <p>LAB TEST</p>
+        </div>
+        <div class="box">
+          <img src="imgs/dep05.jpg" alt="" />
+          <h4>Cardiology Deparments</h4>
+          <p>HEART RATE</p>
+        </div>
+        <div class="box">
+          <img src="imgs/dep06.jpg" alt="" />
+          <h4>Dental Implants</h4>
+          <p>DENTAL CARE</p>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- End Deparment Section -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="ts-box">
+          <p>
+            Toothcare The Best Dental Clinic In History , They Have Best Doctors
+          </p>
+          <div class="person-info">
+            <img src="imgs/test-02.png" alt="" />
+            <h4>Pillar</h4>
+            <p>Journalist At El Mondo</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Toothcare The Best Dental Clinic In History , They Have Best Doctors
+          </p>
+          <div class="person-info">
+            <img src="imgs/test-03.png" alt="" />
+            <h4>Josep Pedrol</h4>
+            <p>Journalist At Chiringito</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Toothcare The Best Dental Clinic In History , They Have Best Doctors
+          </p>
+          <div class="person-info">
+            <img src="imgs/test-04.png" alt="" />
+            <h4>De La Fuente</h4>
+            <p>Journalist At Deportivo</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Toothcare The Best Dental Clinic In History , They Have Best Doctors
+          </p>
+          <div class="person-info">
+            <img src="imgs/test-05.png" alt="" />
+            <h4>Jose</h4>
+            <p>Journalist At RM TV</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Toothcare The Best Dental Clinic In History , They Have Best Doctors
+          </p>
+          <div class="person-info">
+            <img src="imgs/test-06.png" alt="" />
+            <h4>Borja</h4>
+            <p>Journalist At ESPN</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Toothcare The Best Dental Clinic In History , They Have Best Doctors
+          </p>
+          <div class="person-info">
+            <img src="imgs/test-01.png" alt="" />
+            <h4>Amanda</h4>
+            <p>Journalist At Marca</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact Us -->
+    <div class="contact-us">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input
+              type="text"
+              placeholder="Your Name"
+              name="username"
+              autocomplete="additional-name"
+            />
+            <input
+              type="tel"
+              placeholder="Phone Number"
+              name="phone"
+              autocomplete="cc-number"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              autocomplete="email"
+            />
+            <input type="text" placeholder="Subject" name="message" />
+          </div>
+          <div class="right">
+            <textarea name="content" placeholder="Subject...."></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact Us -->
+    <!-- Start Footer -->
+    <div class="footer">made with love by <span>ismaeel abuzahra</span></div>
+    <!-- End Footer -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
